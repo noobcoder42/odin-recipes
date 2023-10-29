@@ -2,10 +2,30 @@ body {
     font-family: "Roboto Slab", sans-serif;
     margin: 0;
     border: 0;
+    color: #03071e;
 }
 
 .main {
     display: block;
     width: 50%;
     margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    margin: 15px;
+}
+
+.food-img {
+    width: 740px;
+    border-radius: 9px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px #03071e;
 }

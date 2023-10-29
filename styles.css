@@ -44,16 +44,16 @@ body {
     margin-bottom: 15px;
 }
 
-p {
+.home-text {
     width: 550px;
     margin: 2px 0;
 }
 
-img {
+.home-imgs {
     width: 90px;
 }
 
-a {
+.pages-link {
     text-decoration: none;
 }
 

@@ -57,4 +57,22 @@ body {
     text-decoration: none;
 }
 
+.page-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.lasagna-pic {
+    width: 640px;
+    border-radius: 9px;
+    box-shadow: 3px 3px 8px #03071e;
+}
+
+.page-text {
+    width: 640px;
+}
+
+
+
 

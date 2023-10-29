@@ -1,24 +1,17 @@
 body {
     font-family: "Roboto Slab", sans-serif;
-    margin: 0;
+    margin: 10px;
     border: 0;
     color: #03071e;
 }
 
 .main {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.header {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .title {
-    text-align: center;
     font-size: 4em;
     margin: 15px;
 }
@@ -29,3 +22,27 @@ body {
     margin: 10px;
     box-shadow: 3px 3px 8px #03071e;
 }
+
+.content {
+    height: 505px;
+    border-radius: 9px;
+    margin-top: 25px;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+.intro {
+    font-size: 2em;
+}
+
+.recipes-section {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+
+
+

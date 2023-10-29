@@ -34,12 +34,27 @@ body {
 
 .intro {
     font-size: 2em;
+    margin: 28px 0;
 }
 
 .recipes-section {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    width: 550px;
+    margin: 2px 0;
+}
+
+img {
+    width: 90px;
+}
+
+a {
+    text-decoration: none;
 }
 
 

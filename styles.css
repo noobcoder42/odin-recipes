@@ -58,6 +58,34 @@ body {
     text-decoration: none;
 }
 
+.home-link, .top-link {
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid #03071e;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.home-link:hover, .top-link:hover {
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid #03071e;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: gold;
+}
+
+.top-link {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 4em;
+    margin: 5px 0;
+    padding: 0;
+    border: 0;
+}
+
 .page-intro {
     display: flex;
     flex-direction: column;
@@ -68,10 +96,24 @@ body {
     width: 640px;
     border-radius: 9px;
     box-shadow: 3px 3px 8px #03071e;
+    margin: 20px 0;
+}
+
+.page-title {
+    margin: 5px 0;
 }
 
 .brief-description {
     width: 640px;
+    margin: 15px 0;
+}
+
+.page-content {
+    width: 1000px;
+    margin: 25px auto;
+    border: 5px dotted #03071e;
+    border-radius: 20px;
+    padding: 10px 35px;
 }
 
 

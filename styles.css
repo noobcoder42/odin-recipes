@@ -35,19 +35,20 @@ body {
 
 .intro {
     font-size: 2em;
-    margin: 28px 0;
+    margin-bottom: 5px;
+    
 }
 
 .recipes-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
 .home-text {
     width: 550px;
-    margin: 2px 0;
 }
 
 .home-imgs {
@@ -56,6 +57,7 @@ body {
 
 .pages-link {
     text-decoration: none;
+    width: fit-content;
 }
 
 .home-link, .top-link {
